@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./sass/styles.scss">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <title>Test technique tictactrip</title>
+</head>
+<body>
+ <main>
+   <section class="all_container">
+    <div  class="container">
+      <h2>Quel est votre trajet ?</h2>
+      <div id="where" class="input_container">
+       <input id="from" class="first_input" type="text" placeholder="Saisissez votre gare de départ..." name="">
+       <input id="to" class="second_input"  type="text" placeholder="Saisissez votre gare d'arrivée..." name="">
+     </div>
+     <div class="input_container">
+       <input class="first_input" type="text" placeholder="Aller" name="" id="">
+       <input class="second_input" type="text" placeholder="Retour" name="" id="">
+     </div>
+     <input class="input_passenger" type="text" placeholder="1 adulte (26-59)" name="" id="">
+     <div class="submit_container">
+       <a>Utiliser le code de réduction</a>
+       <button>RECHERCHER</button>
+     </div>
+    </div >  
+    <div  class="container_city">
+      <div id="triangle" class="triangle"></div>
+      <h2 id="title_station">Choisissez une gare de départ</h2>
+      <div id="city_choice"></div>
+    </div>
+  </section>   
+ </main>
+ <script src="./js/scripts.js"></script>
+</body>
+</html>
